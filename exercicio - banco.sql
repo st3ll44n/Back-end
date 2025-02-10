@@ -10,3 +10,4 @@ dataNas DATE
 insert into contas (id,nome,sobrenome,saldo,dataNas) values (015544,"Stella","Andrade",5241.52,08-09-2004);
 insert into contas (id,nome,sobrenome,saldo,dataNas) values (015174,"Gustavo","Nascimento",5601.52,01-14-2005);
 insert into contas (id,nome,sobrenome,saldo,dataNas) values (015614,"William","Ferreira",5871.52,01-10-2003);
+select * from contas;
