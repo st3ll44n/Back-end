@@ -28,3 +28,6 @@ select * from employees where last_name in ("Boyle","Genin");
 
 -- between 
 select * from salaries where salary between 40000 and 50000; 
+
+-- sum
+select sum(salary) from salaries;
