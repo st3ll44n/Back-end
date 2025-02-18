@@ -1,4 +1,4 @@
-CREATE DATABASE LIVRARIA_DB;
+USE LIVRARIA_DB;
 
 CREATE TABLE AUTORES(
 	id_autor INT PRIMARY KEY auto_increment,
@@ -40,6 +40,17 @@ INSERT INTO LIVROS (id_livro,titulo, ano_publicacao, id_autor) VALUES
     (013,'Crônica de uma Morte Anunciada', 1981, 003),
     (014,'O General em Seu Labirinto', 1989, 003),
     (015,'Do Amor e Outros Demônios', 1994, 003);
+    
+CREATE TABLE livros_autores(
+	id_autor INT NOT NULL,
+    id_livro INT NOT NULL, 
+    nome_autor VARCHAR(20) NOT NULL,
+    titulo VARCHAR(50) NOT NULL, 
+    FOREIGN KEY (id_autor) REFERENCES autores(id_autor),
+    FOREIGN KEY (id_livro) REFERENCES autores(id_livro),
+    FOREIGN KEY (nome_autor) REFERENCES autores(nome),
+    FOREIGN KEY (titulo) REFERENCES autores(titulo)
+);
 
 select * from livros;
 
@@ -48,3 +59,6 @@ select autores.nome, count(livros.id_livro) as qnt_livros from autores left join
 select * from livros where id_autor = "003";
 select * from livros where id_autor = "002";
 select * from livros where id_autor = "001";
+
+USE EMPLOYEES;
+SELECT employees.first_name , employees.last_name, salaries.salary from employees inner join salaries on employees.emp_no = salaries.emp_no ; 
