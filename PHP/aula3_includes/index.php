@@ -6,15 +6,21 @@
     <title>Includes</title>
 </head>
 <body>
-a
     <a href="pagina2.php">Pag 2</a>
-    <?php
-
-        include_once "scripts/header.php";
+    <?php 
+        // include - inclui um código de arquivo estrangeiro
+        include "scripts/header.php";
+        // include - inclui um código de arquivo estrangeiro 
+        // apenas uma vez, caso novamente chamado, o segundo 
+        // chamado será ignorado!
         include_once "scripts/teste.php";
         include_once "scripts/teste.php";
 
-        require_once "scripts/teste2.php"
+        // diferença do include é que ele gera
+        // erros mais especifícados e explicativos
+        require_once "scripts/teste2.php";
+        require_once "scripts/teste2.php";
+    
     ?>
 </body>
 </html>
