@@ -80,4 +80,4 @@ if (isset($_SESSION['carrinho'])) {
     <script src="scripts/script.js"></script>
     
 </body>
-</html>
+</html
