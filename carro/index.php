@@ -35,6 +35,15 @@
             case 'lista':
                 include("pages/lista_carros/lista_carros.php");
                 break;
+            case 'adicionarCarro':
+                include("pages/lista_carros/adicionarCarro.php");
+                break;
+                            case 'adicionarCarro':
+                include("pages/lista_carros/adicionarCarro.php");
+                break;
+            case 'dbAddCarro':
+                include("pages/lista_carros/dbAddCarro.php");
+                break;
             default:
                 include("pages/home/home.php");
                 break;

@@ -1,5 +1,9 @@
 <h1>VOCÊ ESTA NA LISTA DE CARROS</h1>
 
+<a href="index.php?menu=adicionarCarro">
+    <button type="button">Adicionar carro</button>
+</a>
+
 <table>
     <tr>
         <th>Modelo</th>
@@ -8,7 +12,6 @@
         <th>Ano</th>
         <th>Cor</th>
     </tr>
-
 <?php
     $sql = "SELECT * FROM carros";
     // faz o pedido 
