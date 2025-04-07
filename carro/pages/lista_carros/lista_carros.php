@@ -26,6 +26,7 @@
             <td><?=$dados['valor']?></td>
             <td><?=$dados['ano']?></td>
             <td><?=$dados['cor']?></td>
+            <td><a href="index.php?menu=editarCarro&id_carro=<?=$dados['id_carro']?>" class="btn btn-primary">Editar informações</a></td>
         </tr>
     <?php
     }

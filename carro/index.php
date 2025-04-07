@@ -38,11 +38,14 @@
             case 'adicionarCarro':
                 include("pages/lista_carros/adicionarCarro.php");
                 break;
-                            case 'adicionarCarro':
-                include("pages/lista_carros/adicionarCarro.php");
+            case 'editarCarro':
+                include("pages/lista_carros/editarCarro.php");
                 break;
             case 'dbAddCarro':
                 include("pages/lista_carros/dbAddCarro.php");
+                break;
+            case 'atualizarCarro':
+                include("pages/lista_carros/atualizarCarro.php");
                 break;
             default:
                 include("pages/home/home.php");
