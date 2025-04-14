@@ -27,7 +27,7 @@
         <input value="<?=$dados['valor']?>" type="number" id="valor" name="valor">
     </div>
     <div class="form-group">
-        <label for="Ano">Ano</label>
+        <label for="ano">Ano</label>
         <input value="<?=$dados['ano']?>"type="date" id="ano" name="ano">
     </div>
     <div class="form-group">

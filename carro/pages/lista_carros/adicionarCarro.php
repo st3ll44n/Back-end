@@ -3,6 +3,11 @@
 <!-- Conexão parar adicionar ao banco de dados -->
 <!-- Formulário para adição de dados -->
 
+<form action="index.php?menu=lista" method="post">
+    <input type="text" name="pesquisa" id="pesquisa">
+    <button type="submit">Pesquisar</button>
+</form>
+
 <form action="index.php?menu=dbAddCarro" method="post">
     <div class="form-group">
         <label for="modelo">Modelo</label>

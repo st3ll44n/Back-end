@@ -21,7 +21,9 @@
     </header>
 
     <main>
+    
         <?php
+
         if(isset($_GET['menu'])){
             $pagina = $_GET['menu'];
         }else{
@@ -46,6 +48,9 @@
                 break;
             case 'atualizarCarro':
                 include("pages/lista_carros/atualizarCarro.php");
+                break;
+            case 'deletarCarro':
+                include("pages/lista_carros/deletarCarro.php");
                 break;
             default:
                 include("pages/home/home.php");
