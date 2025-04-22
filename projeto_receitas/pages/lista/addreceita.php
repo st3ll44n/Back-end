@@ -94,7 +94,7 @@
         </div>
 
         <div class="d-flex justify-content-between">
-            <a href="index.php?menu=receitas" class="btn btn-secondary">Voltar</a>
+            <a href="index.php?menu=lista" class="btn btn-secondary">Voltar</a>
             <button type="submit" class="btn btn-success">Cadastrar!</button>
         </div>
     </form>

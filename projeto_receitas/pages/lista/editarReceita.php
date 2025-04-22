@@ -67,6 +67,6 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Finalizar Edição!</button>
-        <a href="index.php?menu=receitas" class="btn btn-secondary">Cancelar</a>
+        <a href="index.php?menu=lista" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>

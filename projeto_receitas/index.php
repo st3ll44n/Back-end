@@ -66,6 +66,12 @@
             case 'receita':
                 include('pages/lista/receita.php');
                 break;
+            case 'receita1':
+                include('pages/lista/receita1.php');
+                break;
+            case 'receita2':
+                include('pages/lista/receita2.php');
+                break;
             case 'addreceita':
                 include('pages/lista/addreceita.php');
                 break;
@@ -97,7 +103,7 @@
     <nav class="navbar navbar-expand-lg bg-dark text-light">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand text-light mx-auto" href="index.php?menu=home">Todos os direitos estão reservados a Receitas.com</a>
+            <a class="navbar-brand text-light mx-auto" href="index.php?menu=home"> © 2025 Receitas Deliciosas | Todos os direitos reservados.</a>
         </div>
     </nav>
 </footer>
